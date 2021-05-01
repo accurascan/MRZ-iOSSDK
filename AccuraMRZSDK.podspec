@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AccuraMRZSDK"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.3"
   spec.summary      = "Accura MRZ is used for Optical character recognition."
   spec.description  = "Accura Scan mobile technology provides you with the ability to effectively use the device camera and quickly anboard a customer. Seamless Customer On-Boarding by scanning a MRZ."
   spec.homepage     = "https://github.com/accurascan/AccuraMRZ-iOS-SDK"
@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "AccuraScan" => "connect@accurascan.com" }
   spec.platform     = :ios, "9.0"
   spec.static_framework = true
-  spec.source       = { :git => "https://github.com/accurascan/MRZ-iOSSDK.git", :tag => "1.0.1" }
+  spec.source       = { :git => "https://github.com/accurascan/MRZ-iOSSDK.git", :tag => "1.0.3" }
   spec.preserve_paths = 'AccuraMRZ.framework'
   spec.vendored_frameworks = 'AccuraMRZ.framework'
   spec.requires_arc = true
@@ -18,9 +18,7 @@ Pod::Spec.new do |spec|
   spec.resource = 'GoogleService-Info.plist'
   spec.dependency 'OpenCV', '3.4.2'
   spec.dependency 'Firebase/MLVision'
-  spec.dependency 'Firebase/MLVisionTextModel'
   spec.dependency 'Firebase/MLVisionFaceModel'
-  spec.dependency 'Firebase/MLVisionBarcodeModel'
   spec.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
