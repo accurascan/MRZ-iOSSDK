@@ -71,7 +71,7 @@ typedef NS_ENUM(NSUInteger, CardSide)
 -(void)setLivenessGlarePercentage:(int)glareMin glareMax:(int)glareMax;
 -(void)setLivenessBlurPercentage:(int)blur;
 //-(void)setMinFrameForValidate:(int)minFrame;
--(void)accuraSDK;
+//-(void)accuraSDK;
 -(void)SetCameraFacing:(CameraFacing)camera;
 -(void)SwitchCamera;
 -(void)setBlurPercentage:(int)blur;
