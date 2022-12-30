@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AccuraMRZSDK"
-  spec.version      = "2.1.0"
+  spec.version      = "2.1.1"
   spec.summary      = "Accura MRZ is used for Optical character recognition."
   spec.description  = "Accura Scan mobile technology provides you with the ability to effectively use the device camera and quickly anboard a customer. Seamless Customer On-Boarding by scanning a MRZ."
   spec.homepage     = "https://github.com/accurascan/AccuraMRZ-iOS-SDK"
@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "AccuraScan" => "connect@accurascan.com" }
   spec.platform     = :ios, "12.0"
   spec.static_framework = true
-  spec.source       = { :git => "https://github.com/accurascan/MRZ-iOSSDK.git", :tag => "2.1.0" }
+  spec.source       = { :git => "https://github.com/accurascan/MRZ-iOSSDK.git", :tag => "2.1.1" }
   spec.preserve_paths = 'AccuraMRZ.framework'
   spec.vendored_frameworks = 'AccuraMRZ.framework'
   spec.requires_arc = true

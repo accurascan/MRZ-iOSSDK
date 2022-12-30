@@ -70,6 +70,7 @@ typedef NS_ENUM(NSUInteger, CardSide)
 -(void)setCheckPhotoCopy:(BOOL)isPhoto;
 -(void)setLivenessGlarePercentage:(int)glareMin glareMax:(int)glareMax;
 -(void)setLivenessBlurPercentage:(int)blur;
+-(void)setMRZCountryCodeList:(NSString*)countryCodeList;
 //-(void)setMinFrameForValidate:(int)minFrame;
 //-(void)accuraSDK;
 -(void)SetCameraFacing:(CameraFacing)camera;
@@ -78,6 +79,7 @@ typedef NS_ENUM(NSUInteger, CardSide)
 -(void)andCardSide:(CardSide)scanCardFirst;
 -(void)showLogFile:(bool)isShowLogs;
 -(void)CloseOCR;
+-(NSString *)getMRZSDKVersion;
 
 
 
