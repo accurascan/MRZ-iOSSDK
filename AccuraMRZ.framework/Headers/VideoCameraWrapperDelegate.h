@@ -28,7 +28,7 @@ typedef NS_ENUM(NSUInteger, RecogType) {
 -(void)recognizeSucceedBarcode:(NSString*)message;
 -(void)processedImage:(UIImage*)image;
 -(void)recognizeFailed:(NSString*)message;
--(void)recognizeSucceed:(NSMutableDictionary*)scanedInfo recType:(RecType)recType bRecDone:(BOOL)bRecDone bFaceReplace:(BOOL)bFaceReplace bMrzFirst:(BOOL)bMrzFirst photoImage:(UIImage*)photoImage docFrontImage:(UIImage*)docFrontImage docbackImage:(UIImage*)docbackImage isbackSideAvailable:(BOOL)isBackSide;
+-(void)recognizeSucceed:(NSMutableDictionary*)scanedInfo recType:(RecType)recType bRecDone:(BOOL)bRecDone bFaceReplace:(BOOL)bFaceReplace bMrzFirst:(BOOL)bMrzFirst photoImage:(UIImage*)photoImage docFrontImage:(UIImage*)docFrontImage docbackImage:(UIImage*)docbackImage;
 -(void)recognizSuccessBankCard:(NSMutableDictionary*)cardDetail andBankCardImage:(UIImage*)bankCardImage;
 
 -(void)dlPlateNumber:(NSString*)plateNumber andImageNumberPlate:(UIImage*)imageNumberPlate;
